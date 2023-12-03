@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 5em;
+}
+
+h2{
+    color: yellow;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    color: yellow;
+    font-size: 2em;
+}
+
+li {
+    list-style: none;
+    margin-right: 15%;
+    display: inline-block;
+    color: yellow;
+    font-size: 3em;
+    background-color: red;
+
+}
+
+.content {
+    background-color: red;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
