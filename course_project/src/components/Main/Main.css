@@ -1,35 +1,122 @@
 h1 {
     text-align: center;
-    color: red;
-    font-size: 5em;
+    color: rgb(146,34,34);
+    font-size: 40px;
 }
 
 h2{
-    color: yellow;
-    font-size: 3em;
+    color: rgb(244,178,6) ;
+    font-size: 24px;
+    text-align: center;
 }
 
 p {
-    text-align: center;
-    color: yellow;
-    font-size: 2em;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
 }
 
+.textBox3  p {
+    background-color: rgb(244,178,6);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 34%;
+    top: 1600px;
+
+}
+.textBox4  p {
+    background-color: rgb(244,178,6);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 34%;
+    top: 900px;
+
+}
+
+.textBox1  p {
+    background-color: rgb(244,178,6);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 34%;
+    top:200px;
+
+}
+
+
+.boxButton {
+    position: absolute;
+    top: 725px;
+    left: 45%;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(146,34,34);
+    color: white;
+    text-align: center;
+}
+
+.countryBox {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    
+}
+.display {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1000px;
+    left: 40%;
+    
+}
+.display2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1700px;
+    left: 40%;
+    
+}
+
+.storeButton {
+    position: absolute;
+        top: 1425px;
+        left: 45%;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(146,34,34);
+        color: white;
+        text-align: center;
+
+}
+.giftButton {
+    position: absolute;
+        top: 2125px;
+        left: 45%;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(146,34,34);
+        color: white;
+        text-align: center;
+
+}
 li {
+    position: relative;
+    left: 200px;
     list-style: none;
     margin-right: 15%;
     display: inline-block;
-    color: yellow;
-    font-size: 3em;
-    background-color: red;
+    color: rgb(244,178,6);
+    font-size: 24px;
+    
 
 }
 
 .content {
-    background-color: red;
-}
-
-img {
-    width: 100px;
-    height: 100px;
+    background-color: rgb(146,34,34);
+    height: 2500px;
 }
