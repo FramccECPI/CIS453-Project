@@ -15,7 +15,7 @@ class Main extends Component {
     render() {
         return (
             <HashRouter>
-                <div>
+                <div className="background">
                     <h1>Universal Yums</h1>
                     <ul className="header">
                         <li><NavLink to="/">Home</NavLink></li>
